@@ -1,0 +1,63 @@
+/* Container for the form */
+.companyform-container {
+  width: calc(97% - 17vw); /* Adjust width to avoid content falling behind the sidebar */
+  margin-left: 17vw; /* Ensure content starts after the sidebar */
+    margin-top: 100px;
+    padding: 20px;
+    height: 70vh;
+    
+  }
+  .input-group{
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .horizontal-line{
+    border-top: 1px solid rgb(211, 209, 210);
+  }
+  
+  /* Style for input fields */
+  .companyinput-field{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #fff;
+    border-bottom: 1px solid rgb(224, 221, 221);
+    outline: none;
+    
+  }
+  
+  .companyselect-field{
+    width: 100%;
+    padding: 8px;
+    outline: none;
+  }
+  
+  
+  /* Style for labels */
+  .companylabel {
+    display: block;
+   padding-top: 20px;
+    width: 40%;
+  }
+  
+  /* Style for the save button */
+  .save-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+   
+  }
+  
+  .save-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .save-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }

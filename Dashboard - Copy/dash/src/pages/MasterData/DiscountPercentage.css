@@ -1,0 +1,147 @@
+.discount-main {
+    margin-top: 100px;
+    width: calc(97% - 17vw); /* Adjust width to avoid content falling behind the sidebar */
+    margin-left: 17vw; /* Ensure content starts after the sidebar */
+  }
+  
+  .discount-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    width: 100%;
+  }
+  
+  .lookup-button {
+    padding: 10px 15px;
+    background-color: #0c5c4c;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 14px;
+  }
+  
+  /* for tables */
+  .discount-table {
+    width: 97%;
+    border-collapse: collapse;
+    margin: 20px;
+  }
+  
+  .discount-table th,
+  .discount-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-family: sans-serif;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 300;
+    color: #5d5a5a;
+  }
+  
+  td {
+    font-size: 14px;
+    color: #5d5a5ac8;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f0eeee;
+  }
+  
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-inner {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 600px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: calc(100% - 16px); /* Adjust for padding */
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .popup-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .popup-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .popup-buttons button:first-child {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .popup-buttons button:first-child:hover {
+    background-color: #218838;
+  }
+  
+  .popup-buttons button:last-child {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .popup-buttons button:last-child:hover {
+    background-color: #c82333;
+  }
+  
+  .action-button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.2s ease-out;
+  }
+  
+  .action-button:first-of-type {
+    color: white;
+  }
+  
+  .action-button:first-of-type:hover {
+    background-color: rgb(224, 222, 222);
+    border-radius: 50%;
+  }
+  
+  .action-button:last-of-type {
+    color: red;
+  }
+  
+  .action-button:last-of-type:hover {
+    background-color: rgb(224, 222, 222);
+    border-radius: 50%;
+  }
+  

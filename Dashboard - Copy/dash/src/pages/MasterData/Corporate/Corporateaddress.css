@@ -1,0 +1,78 @@
+/* Container for the form */
+.corporate-form-container {
+    width: calc(97% - 17vw); /* Adjust width to avoid content falling behind the sidebar */
+    margin-left: 17vw; /* Ensure content starts after the sidebar */
+
+    padding: 50px;
+    height: 70vh;
+    margin-top: 100px;
+}
+
+/* Input group styles */
+.corporate-input-group {
+    display: flex;
+    border-bottom: 1px solid rgb(179, 176, 176);
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Style for input fields and select fields */
+.corporate-input-field,
+.corporate-select-field {
+    width: 100%;
+    border: none; /* Default border color to match background */
+    outline: none; /* Remove default outline */
+    font-size: 18px;
+    font-style: bold;
+    font-family: sans-serif;
+}
+
+/* Remove border on focus except the bottom border */
+.corporate-input-field:focus,
+.corporate-select-field:focus {
+    border: 1px solid #fff; /* Match background */
+    border-bottom: 1px solid #d8d9db; /* Change bottom border color on focus */
+}
+
+/* Style for labels */
+.corporate-label {
+    display: block;
+    width: 30%;
+    font-family: sans-serif;
+    color: rgb(70, 67, 67);
+}
+
+/* Form structure */
+.corporate-address-form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Style for the save button */
+.corporate-save-button {
+    width: 100px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0c5c4c;
+    color: #fff;
+    cursor: pointer;
+}
+
+.corporate-save-button:hover {
+    background-color: #083b31;
+}
+
+.corporate-save-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Title style */
+.corporate-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+}

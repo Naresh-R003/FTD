@@ -1,0 +1,48 @@
+.main-top {
+    height: 100px;
+    width: 83vw;
+
+}
+
+.main-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding: 20px;
+}
+ 
+.searchbar {
+    height: 50px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 10px;
+    align-items: center;
+    border: 1px solid rgb(116, 112, 112);  
+}
+
+.searchbar input {
+    width: 250px;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+
+nav{
+    cursor: pointer;
+}
+
+.dropbutton{
+    cursor: pointer;
+}
+
+
+.dropbtn span{
+    float: right;
+
+    line-height: 25px;
+
+}

@@ -1,0 +1,94 @@
+/* CorporateJob.css */
+
+.config-form-container {
+  width: calc(97% - 17vw); /* Adjust width to avoid content falling behind the sidebar */
+  margin-left: 17vw; /* Ensure content starts after the sidebar */
+  height: 70vh;
+  margin-top: 60px;
+}
+
+.saas-title {
+  font-family: sans-serif;
+  color: rgb(70, 67, 67);
+  margin-bottom: 20px;
+}
+
+.form-actions {
+  margin-bottom: 20px;
+}
+
+.edit-button, .save-button, .cancel-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #0c5c4c;
+  color: #fff;
+  cursor: pointer;
+}
+
+.edit-button:hover, .save-button:hover {
+  background-color: #083b31;
+}
+
+.cancel-button {
+  background-color: #d9534f;
+}
+
+.cancel-button:hover {
+  background-color: #c9302c;
+}
+
+.job-config-form {
+  margin-bottom: 20px;
+}
+
+.role-item {
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.config-label {
+  display: block;
+  width: 60%;
+  font-family: sans-serif;
+  color: rgb(70, 67, 67);
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.input-field {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.popup-actions {
+  margin-top: 20px;
+}
+
+.horizontal-line {
+  border-top: 0.5px solid rgb(228, 226, 226);
+  margin-bottom: 30px;
+}
+
+.save-button, .edit-button, .cancel-button {
+  width: 120px;
+}
+
+.form-data {
+  font-family: sans-serif;
+  color: rgb(70, 67, 67);
+}
+
+.last-input-group {
+  border-bottom: none;
+}
+

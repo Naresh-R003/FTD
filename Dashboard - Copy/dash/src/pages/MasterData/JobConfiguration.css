@@ -1,0 +1,143 @@
+.config-form-container {
+    padding: 50px;
+    width: calc(97% - 17vw); /* Adjust width to avoid content falling behind the sidebar */
+    margin-left: 17vw; /* Ensure content starts after the sidebar */
+    height: 70vh;
+    margin-top: 60px;
+  }
+
+  
+  .form-header {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    /* gap: 20px; */
+  }
+  .config-label{
+    display: block;
+     width: 60%;
+     font-family: sans-serif;
+     color: rgb(70, 67, 67);
+     font-size: 16px;
+  }
+  
+  .form-button {
+    padding: 10px 20px;
+    background-color: #0c5c4c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-button:hover {
+    background-color: #095b4c;
+  }
+  
+  .form-data {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .horizontal-line{
+    border-top: 0.5px solid rgb(228, 226, 226);
+    margin-bottom: 10px;
+  }
+  
+  .role-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .role-field {
+    margin-bottom: 10px;
+    display: flex;
+   
+    
+  }
+
+  .role-field h4:first-child{
+    width: 40%;
+    color: rgb(113, 111, 111);
+  }
+
+  .role-field .second-element{
+    width: 60%;
+  }
+  
+  .role-field span {
+    font-weight: none;
+  }
+  
+  .role-actions {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .action-button {
+    padding: 5px 10px;
+    margin-right: 10px;
+    background-color: #0c5c4c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .action-button:hover {
+    background-color: #095b4c;
+  }
+  
+ 
+
+  /* Add these styles to your existing CSS */
+
+.config-labels{
+    font-weight: 100;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+  }
+  .form-data{
+    font-family: sans-serif;
+    color: rgb(70, 67, 67);
+    
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .last-input-group{
+    border-bottom: none;
+  }
+  .save-button, .edit-button {
+    width: 100px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0c5c4c;
+    color: #fff;
+    cursor: pointer;
+   
+}
+
+.edit-button:hover {
+    background-color: #083b31;
+}
+ 
